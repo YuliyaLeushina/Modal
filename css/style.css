@@ -3679,6 +3679,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     .btn-padding{
         margin-left: 16px;
         margin-right: 16px;
+        margin-top:32px;
     }
     .section.active h1, h1, .section.active h2{
         padding-left: 16px;
