@@ -787,11 +787,15 @@ p {
 
 .nav__menu ul li a {
     color: white;
-    font-weight: bold;
+    font-weight: 400;
+    text-transform: uppercase;
     font-size: 1.65rem;
     letter-spacing: .05em;
     -webkit-transition: all .2s;
-    transition: all .2s
+    transition: all .2s;
+    margin-bottom: 1rem;
+    display: block;
+
 }
 
 .nav__menu ul li a:hover {
