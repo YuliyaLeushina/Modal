@@ -3604,7 +3604,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 @media (max-width:1024px){
     .section__photos_wrap{
         width: 100%;
-        height: calc(100svh - 80px);
+        height:100svh;
         background: #00C2CB;
     }
    /*
@@ -3652,7 +3652,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     */
    
     .section__photos{
-        height: calc(100svh - 80px);
+        height:100svh ;
     }
     .fp-right{
        opacity: 0;
@@ -3698,6 +3698,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 @media (max-width:767.8px){
     .section.active h1, h1, {
         font-size: 30px;
+    }
+    .section__photos{
+        height: calc(100svh - 80px);
+    }
+    .section__photos_wrap{
+        height: calc(100svh - 80px);
     }
    
 }
