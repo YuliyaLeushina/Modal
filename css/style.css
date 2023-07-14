@@ -1,13 +1,4 @@
-/*!
-Theme Name: Gneusheva
-Theme URI: https://github.com/ahmadawais/WPGulpTheme
-Description: theme with wpgulp
-Version: 2.2.0
-Author: Kirill Kuprashevich
-Author URI: http://bearscience.net
-License: MIT
-Text Domain: WPGT
-*/
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -2821,6 +2812,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     .wp-caption .wp-caption-text,.gallery-caption {
         font:300 1.55rem/1.8 sans-serif
     }
+    .section h1 {
+        font-size: 32px
+    }
+
+    .section h2 {
+        font-size: 26px
+    }
 }
 
 @media(min-width: 414px) {
@@ -2853,7 +2851,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     }
 
     .section h1 {
-        font-size: 30px
+        font-size: 32px
     }
 
     .section h2 {
@@ -3601,7 +3599,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 @media (max-width:1024px){
     .section__photos_wrap{
         width: 100%;
-        height: 70svh;
+        height: 100svh;
         background: #00C2CB;
     }
    /*
@@ -3649,7 +3647,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     */
    
     .section__photos{
-        height: 70svh;
+        height: 100svh;
     }
     .fp-right{
        opacity: 0;
@@ -3679,7 +3677,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     .btn-padding{
         margin-left: 16px;
         margin-right: 16px;
-        margin-top:32px;
     }
     .section.active h1, h1, .section.active h2{
         padding-left: 16px;
