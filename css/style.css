@@ -2817,7 +2817,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         font:300 1.55rem/1.8 sans-serif
     }
     .section h1 {
-        font-size: 32px
+        font-size: 32px;
+        margin-top: 3vh;
     }
 
     .section h2 {
